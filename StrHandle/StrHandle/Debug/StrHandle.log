@@ -1,0 +1,34 @@
+﻿生成启动时间为 1/12/2015 11:53:33 PM。
+     1>项目“F:\Study\MyGit\MyGitTestProj\TestGit\StrHandle\StrHandle\StrHandle.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\StrHandle.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\installedSe\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\StrHandle.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StrHandle.cpp
+         StrHandle.cpp
+     1>f:\study\mygit\mygittestproj\testgit\strhandle\strhandle\strhandle.cpp(23): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installedse\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>f:\study\mygit\mygittestproj\testgit\strhandle\strhandle\strhandle.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installedse\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\study\mygit\mygittestproj\testgit\strhandle\strhandle\strhandle.cpp(27): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\installedse\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\installedSe\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Study\MyGit\MyGitTestProj\TestGit\StrHandle\Debug\StrHandle.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\StrHandle.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Study\MyGit\MyGitTestProj\TestGit\StrHandle\Debug\StrHandle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Study\MyGit\MyGitTestProj\TestGit\StrHandle\Debug\StrHandle.lib" /MACHINE:X86 Debug\StrHandle.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\StrHandle.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\StrHandle.exe.embed.manifest" /manifest Debug\StrHandle.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         StrHandle.vcxproj -> F:\Study\MyGit\MyGitTestProj\TestGit\StrHandle\Debug\StrHandle.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\StrHandle.unsuccessfulbuild”。
+         正在对“Debug\StrHandle.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Study\MyGit\MyGitTestProj\TestGit\StrHandle\StrHandle\StrHandle.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.93
