@@ -33,6 +33,21 @@
     <ClInclude Include="Queue.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="bubbleSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="swap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="selectSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="insertSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="qsort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

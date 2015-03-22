@@ -5,6 +5,10 @@
 #include "SingleLink.h"
 #include "DoubleLink.h"
 #include "Queue.h"
+#include "bubbleSort.h"
+#include "selectSort.h"
+#include "insertSort.h"
+#include "qsort.h"
 
 //int _tmain(int argc, _TCHAR* argv[])
 int main(void)
@@ -49,7 +53,7 @@ int main(void)
 	dl.print_node_data();
 	dl.sort_list();
 	dl.print_node_data();
-	*/
+	
 	Queue q;
 	q.enQueue(1);
 	q.enQueue(2);
@@ -62,6 +66,43 @@ int main(void)
 	q.print_node_data();
 	q.enQueue(7);
 	q.print_node_data();
+	*/
+
+	int A[4] = {2, 3, 1, 4};
+    bubbleSort(A, 4);
+	cout<<"After bubbleSort:"<<endl;
+    for (int i = 0; i < 4; i ++)
+    {
+        cout<<A[i]<<" ";
+    }
+	cout<<endl;
+
+	int B[4] = {2, 3, 1, 4};
+    selectSort(B, 4);
+	cout<<"After selectSort:"<<endl;
+    for (int i = 0; i < 4; i ++)
+    {
+        cout<<B[i]<<" ";
+    }
+	cout<<endl;
+
+	int C[4] = {2, 3, 1, 4};
+    insertSort(C, 4);
+	cout<<"After insertSort:"<<endl;
+    for (int i = 0; i < 4; i ++)
+    {
+        cout<<C[i]<<" ";
+    }
+	cout<<endl;
+
+	int D[5] = {2, 5, 3, 1, 4};
+    qsort(D, 0, 4);
+	cout<<"After qsort:"<<endl;
+    for (int i = 0; i < 5; i ++)
+    {
+        cout<<D[i]<<" ";
+    }
+	cout<<endl;
 	int a;
 	cin>>a;
 	return 0;

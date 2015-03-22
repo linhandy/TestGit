@@ -14,6 +14,11 @@ using namespace std;
 #include "set_test.h"
 //非标准STL，散列容器
 
+union u
+{
+    int i ;
+    char x[2] ;
+} a ;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -25,7 +30,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	set_test();
 	// auto ptr
 
+	//Judge endian 
+	a.x[0] ='1' ;
+    a.x[1] ='2' ;
+	printf("a.i= 0x%x \r\n", a.i);
+    cout << a.i << endl ;
 	system("pause");
 	return 0;
 }
-

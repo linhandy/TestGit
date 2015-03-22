@@ -1,5 +1,5 @@
-﻿生成启动时间为 3/14/2015 10:58:37 PM。
-     1>项目“F:\Study\MyGit\MyGitTestProj\TestGit\STL_USE\STL_USE\STL_USE.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 3/21/2015 12:59:41 AM。
+     1>项目“F:\Study\HandyGitHub\TestGit\STL_USE\STL_USE\STL_USE.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\STL_USE.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
@@ -9,7 +9,7 @@
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Study\MyGit\MyGitTestProj\TestGit\STL_USE\Debug\STL_USE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\STL_USE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Study\MyGit\MyGitTestProj\TestGit\STL_USE\Debug\STL_USE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Study\MyGit\MyGitTestProj\TestGit\STL_USE\Debug\STL_USE.lib" /MACHINE:X86 Debug\STL_USE.exe.embed.manifest.res
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Study\HandyGitHub\TestGit\STL_USE\Debug\STL_USE.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\STL_USE.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Study\HandyGitHub\TestGit\STL_USE\Debug\STL_USE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Study\HandyGitHub\TestGit\STL_USE\Debug\STL_USE.lib" /MACHINE:X86 Debug\STL_USE.exe.embed.manifest.res
          Debug\stdafx.obj
          Debug\STL_USE.obj
        Manifest:
@@ -17,12 +17,12 @@
          所有输出均为最新。
        LinkEmbedManifest:
          所有输出均为最新。
-         STL_USE.vcxproj -> F:\Study\MyGit\MyGitTestProj\TestGit\STL_USE\Debug\STL_USE.exe
+         STL_USE.vcxproj -> F:\Study\HandyGitHub\TestGit\STL_USE\Debug\STL_USE.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\STL_USE.unsuccessfulbuild”。
          正在对“Debug\STL_USE.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“F:\Study\MyGit\MyGitTestProj\TestGit\STL_USE\STL_USE\STL_USE.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“F:\Study\HandyGitHub\TestGit\STL_USE\STL_USE\STL_USE.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.99
+已用时间 00:00:01.06
