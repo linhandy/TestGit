@@ -24,7 +24,7 @@ printf("socket ok !\r\n");
 
 bzero(&s_add,sizeof(struct sockaddr_in));
 s_add.sin_family=AF_INET;
-s_add.sin_addr.s_addr= inet_addr("192.168.15.23");
+s_add.sin_addr.s_addr= inet_addr("127.0.0.1");
 s_add.sin_port=htons(portnum);
 printf("s_addr = %#x ,port : %#x\r\n",s_add.sin_addr.s_addr,s_add.sin_port);
 
