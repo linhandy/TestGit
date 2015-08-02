@@ -48,6 +48,15 @@
     <ClInclude Include="qsort.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="binSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subArrayMaxSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestConstructorCallVirFunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

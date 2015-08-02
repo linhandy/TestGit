@@ -16,6 +16,9 @@
     <Filter Include="头文件\container">
       <UniqueIdentifier>{d8634cd0-02ed-4302-a49c-3ed92ac4f9f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\self_def">
+      <UniqueIdentifier>{a49b3010-7867-4570-a565-35ef64b425ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -44,6 +47,9 @@
     </ClInclude>
     <ClInclude Include="dqueue_test.h">
       <Filter>头文件\container</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>头文件\self_def</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

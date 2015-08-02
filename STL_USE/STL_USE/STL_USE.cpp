@@ -14,14 +14,21 @@ using namespace std;
 #include "set_test.h"
 //非标准STL，散列容器
 
+//self def
+#include "String.h"
+
 union u
 {
     int i ;
     char x[2] ;
 } a ;
 
+//#define PARAM( x ) x##x
+//#define ADDPARAM( x ) INT_##x
+
 int _tmain(int argc, _TCHAR* argv[])
 {
+//	PARAM( ADDPARAM( 2 ) );
 	// vector_test();
 	// dqueue_test();
 	// list_test();
@@ -35,6 +42,9 @@ int _tmain(int argc, _TCHAR* argv[])
     a.x[1] ='2' ;
 	printf("a.i= 0x%x \r\n", a.i);
     cout << a.i << endl ;
+
+	//map test
+	map_test();
 	system("pause");
 	return 0;
 }

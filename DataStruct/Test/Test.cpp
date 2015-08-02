@@ -1,5 +1,7 @@
 // Test.cpp : 定义控制台应用程序的入口点。
 //
+#include <iostream>
+using namespace std;
 
 #include "stdafx.h"
 #include "SingleLink.h"
@@ -9,6 +11,9 @@
 #include "selectSort.h"
 #include "insertSort.h"
 #include "qsort.h"
+#include "binSearch.h"
+#include "subArrayMaxSum.h"
+#include "TestConstructorCallVirFunc.h"
 
 //int _tmain(int argc, _TCHAR* argv[])
 int main(void)
@@ -66,7 +71,7 @@ int main(void)
 	q.print_node_data();
 	q.enQueue(7);
 	q.print_node_data();
-	*/
+	
 
 	int A[4] = {2, 3, 1, 4};
     bubbleSort(A, 4);
@@ -103,8 +108,45 @@ int main(void)
         cout<<D[i]<<" ";
     }
 	cout<<endl;
-	int a;
-	cin>>a;
+	
+	// binary search
+	int A[6] = {2, 3, 4, 5, 1, 7};
+	selectSort(A, 6);
+	int valueFind = 7;
+	bool isFind = binSearch(A, 0 , 5, valueFind);
+	cout<<valueFind<<" in A is "<<isFind<<endl;
+
+	bool isFind2 = binSearch2(A, 0 , 5, valueFind);
+	cout<<valueFind<<" in A is "<<isFind2<<endl;
+	
+    int A[8] = {1, -2, 3, 10, -4, 7, 2, -5};
+	int maxSum = maxSubarray(A, 7);
+	cout<<"maxSum is: " <<maxSum<<endl;
+	
+    // test constuctor call vitual func
+    //Base* base = new Dev();
+	//base->func();
+	{
+	    //Base base2;
+		Dev dev;
+	}
+
+	int  a[5] = {1, 2, 3, 4, 5};  
+    int  *ptr = (int *)(&a+1);  
+    printf("%d %d",*(a+1),*(ptr-1));  
+	int b =1;
+	*/
+//{
+//	A a;       //很简单，定义a的时候调用了一次构造函数  
+//        B b(a); 
+//}
+ //char str1[40]="hello world!"; 
+ //char *str1="hello world!";
+ //str1[4]='A';                      //若str1是指针型的，编译通过，但运行是此处会段错误
+// printf("%s\n",str1);
+
+	int temp;
+	cin>>temp;
 	return 0;
 }
 

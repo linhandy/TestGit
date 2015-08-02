@@ -6,12 +6,13 @@ int getPivot(int low, int high)
 }
 int partion(int A[], int low, int high, int pivot)
 {
-	while(low < high)
-	{
-		while(A[low] < pivot) low++;
-		while(A[high] > pivot) high--;
+	
+	do{
+		while(A[++low] < pivot) ;
+		while(A[--high] > pivot) ;
 		swap(A, low, high);
-	}
+	}while(low < high);
+
 	// reverse last
 	swap(A, low, high);
 
@@ -36,5 +37,5 @@ void qsort(int A[], int low, int high)
 	swap(A, k, high);
 
 	qsort(A, low, k-1);
-	qsort(A, k, high);
+	qsort(A, k+1, high);
 }
